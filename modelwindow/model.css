@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-container{
+    background-color: rgba(0, 0, 0,0.4);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    pointer-events: none;
+}
+
+.model-container.show{
+    opacity:1;
+    pointer-events:auto;
+}
+.model{
+    background-color: white;
+    width: 70%;
+    padding:20px;
+    position:relative;
+}
+
+.close{
+    position: absolute;
+    right:0;
+    bottom:0;
+    padding:2px;
+    background-color: green;
+    color:wheat;
+}
+
+.open{
+    font-size: 20px;
+   padding:7px;
+    background-color: green;
+    color:wheat;
+    width: 9rem;
+}

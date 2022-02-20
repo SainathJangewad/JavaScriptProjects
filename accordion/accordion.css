@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.accordion-container{
+   width: 30rem;
+    border: 3px solid red;
+    margin: 8rem auto;
+    padding:1rem;
+}
+
+h1{
+    margin-bottom:1rem;
+    text-align:center;
+}
+
+.accordion-header{
+    margin:0.5rem 0;
+    border: 3px solid gray;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.accordion-header::after{
+    content: "+";
+    margin-right: 1rem;
+    font-size:1.8rem;
+}
+
+.accordion-header.active::after{
+    content:"-";
+}
+
+.accordion-body
+{
+    height:0;
+    overflow:hidden;
+    transition: height 0.2s ease-out;
+}
+
+p{
+    padding:0.3rem;
+}
+

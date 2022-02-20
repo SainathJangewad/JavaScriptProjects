@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.cards-container{
+    width: 500px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item{ 
+    flex: 0.5;
+    background-color: red;
+    height: 50vh;
+    margin: 5px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transition: flex 0.3s ease-in;
+    cursor: pointer;
+}
+
+.card-item.active{
+    flex: 3;
+}
+.card-item:nth-child(1){
+    background-color:lightslategray;
+    
+}
+.card-item:nth-child(2){
+    background-color:lightcoral;
+    
+}
+.card-item:nth-child(3){
+    background-color:lightgreen;
+    
+}
+.card-item:nth-child(4){
+    background-color:lightblue    
+}
+
