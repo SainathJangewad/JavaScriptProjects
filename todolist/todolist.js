@@ -72,8 +72,9 @@ function showTask(){
         let editVal =  
         editbutton.parentElement.firstChild.innerText;
         taskObj =  taskObj.filter((t)=>{
-            return t != editVal;
+            return t.trim() !== editVal.trim();
         })
+        
         localStorage.setItem('taskObj',JSON.stringify(taskObj)); 
         trashbutton.parentElement.remove();
     }
@@ -87,13 +88,14 @@ function showTask(){
         editbutton.parentElement.firstChild.innerText;
         input.value = `${editVal}`;
         input.focus();
+
         taskObj =  taskObj.filter((t)=>{
-            return t != editVal;
+            return t.trim() !== editVal.trim();
         })
+ 
         localStorage.setItem('taskObj',JSON.stringify(taskObj)); 
       }
     input.value = '';
-    
 });
 }
 showTask();   
