@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-container  h1{
+    margin-bottom: 1rem;
+    line-height: 44px;
+    font-weight: lighter;
+    color: rgb(48, 49, 66);
+    font-size:32px;
+    margin-left: 5px;
+}
+
+.list-container{
+    height: 26.5rem;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#fff8f8;
+    margin: 0px 0px 0px 14px;
+    padding: 11px;     
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 15px; 
+}
+.list-item-text {
+    font-size: 0.9rem; 
+    font-weight: lighter;
+    margin-left: 10px; 
+}
+.list-item-icons{
+    font-size:0.8rem;
+    color:#dd3b7f;
+    z-index: 11;
+}
+.icon-container {
+    background-color: #fae8eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:6px;
+    width:28px;
+    height: 28px;
+}
+
+/* intro section starts here */ 
+.intro-container{
+    height: 30.5rem;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 0px 0px 14px;
+    padding: 31px;     
+}
+.intro-container-header{
+    height: 30.5rem;
+  margin-bottom: 26px; 
+}
+.intro-container h1{
+    margin-bottom: -6px; 
+    color:rgb(34, 34, 34);
+    font-weight:lighter;
+    font-size: 2.3rem;
+}
+.videobots h1{
+    color:#d09b1e;
+    margin-bottom: 10px; 
+    margin-top: 8px;
+} 
+.intro-list-item{
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 15px; 
+}
+.intro-list-item-icon{
+    color:#dd3b7f;
+    margin-left:-5px;
+}
+
+.intro-list-item-text{
+    font-weight:lighter;
+    margin-left: 12px;
+    font-size: 0.9rem; 
+}
+.intro-paragraph{
+    font-weight:lighter;
+    font-size: 19px;
+}
+/* intro secetion end here */
+
+.image-container{
+    height: 30.5rem;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 27px 14px;
+    padding: 25px;     
+}
+.image-container img{
+    height: 312;
+}
+
+ @media screen and (min-width:760px){
+    .section-one-container{
+        padding:80px 40px 80px 20px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:100vh;
+    }    
+    .list-container{
+        height: 30.5rem;
+        width: 630px;
+        padding: 41px;
+
+    }
+    .list-item{
+        margin-left: 2rem;
+    }
+    .list-container h1{
+        line-height: 54px;
+        font-size:39px;
+        margin-left: 2rem;
+    }
+    .list-item-text{
+        font-size: 1.1rem;
+    }
+    .intro-heading-title-and-video{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .intro-container-header{
+        margin-top: 2.7rem;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-container{
+        height: 32.5rem;
+        width: 630px;
+        margin-top: -3rem;
+    }
+    .videobots h1{
+        margin-left: -20rem;
+    } 
+    .videobots{
+        margin-bottom: -22rem;
+    }
+    .intro-container-header h1{
+        font-size: 39px;
+        height: 60px;
+    }
+    
+    .intro-paragraph{
+        margin-top: 20px;
+        margin-bottom: opx;
+        height: 100px;
+    }
+
+    .intro-container-header p{
+        font-size: 23px;
+    }
+    .intro-list-container{
+        margin-top:-22px;
+        padding-bottom: 3.8rem;     
+    }
+    .intro-list-item{
+        margin: 2px;
+    }
+    .intro-list-item-text{
+        font-size: 1.1rem; 
+    }
+    .image-container{
+        margin-right: 7rem;
+    }
+} 
+
+ 
+.section-two-first{
+    display: flex;
+    flex-direction: column;
+    padding: 9px 39px;
+
+}
+
+.section-two-first > *{
+    margin-bottom: 10px;
+}
+
+.section-two-first h1{
+    font-weight: lighter-bold;
+    font-size:19px;
+}
+.section-two-first h2{
+    font-weight: lighter;
+    line-height: 35px;
+    font-size: 37px;
+}
+.section-two-first p{
+    color: gray;
+    line-height: 32px;
+    font-size: 20px;
+    width: 350px;
+}
+.section-two-second{
+    padding-bottom: 20px;
+    margin-top: -42px;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
